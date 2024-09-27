@@ -1,3 +1,5 @@
+#Actividad 001 - Graficador de Funciones
+#Paucar Arias Branly Smith - 227773
 import numpy as np
 import matplotlib.pyplot as plt
 
