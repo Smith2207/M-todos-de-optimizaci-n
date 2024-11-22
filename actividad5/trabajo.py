@@ -133,6 +133,7 @@ def show_exercise_1():
     else:
         st.markdown(f"Con \( c = {coef} \), la función sigue siendo lineal y convexa en todo \( R \).")
 
+    st.markdown('<p style="text-align: right; font-size: 14px; color: #888;">Creado por: <strong>Branly Smith Paucar Arias</strong></p>', unsafe_allow_html=True)
 
 
 def show_exercise_2():
@@ -199,6 +200,7 @@ def show_exercise_2():
         st.markdown("Con \( c = 0 \), la función se convierte en una constante y no es ni convexa ni cóncava.")
     else:
         st.markdown(f"Con \( c = {coef} \), la función es cóncava para \( x < 0 \) y convexa para \( x > 0 \).")
+    st.markdown('<p style="text-align: right; font-size: 14px; color: #888;">Creado por: <strong>Branly Smith Paucar Arias</strong></p>', unsafe_allow_html=True)
 
 
 def show_exercise_3():
@@ -263,6 +265,7 @@ def show_exercise_3():
         st.markdown(f"Con \( c = {coef} \), la función se convierte en una constante \( f(x) = 1 \), que no es ni convexa ni cóncava.")
     else:
         st.markdown(f"Con \( c = {coef} \), la función tiene un decrecimiento exponencial, pero sigue siendo convexa ya que \( f''(x) = {coef**2}e^{{{coef}x}} > 0 \).")
+    st.markdown('<p style="text-align: right; font-size: 14px; color: #888;">Creado por: <strong>Branly Smith Paucar Arias</strong></p>', unsafe_allow_html=True)
 
 
 def show_exercise_4():
@@ -324,6 +327,7 @@ def show_exercise_4():
     st.markdown("### **Conclusión para tus parámetros**")
     if shift > -0.1:
         st.markdown(f"Con el desplazamiento \( x + {shift} \), la función sigue siendo cóncava en su dominio mientras \( x + {shift} > 0 \).")
+    st.markdown('<p style="text-align: right; font-size: 14px; color: #888;">Creado por: <strong>Branly Smith Paucar Arias</strong></p>', unsafe_allow_html=True)
 
 def show_exercise_5():
     st.markdown('<h2 class="subheader">Analizar f(x) = x⁴ - 2x² + 1</h2>', unsafe_allow_html=True)
@@ -394,6 +398,7 @@ def show_exercise_5():
         st.markdown(f"El término constante negativo ({coef_const}) desplaza la función hacia abajo.")
     else:
         st.markdown("El término constante no afecta la posición vertical de la función.")
+    st.markdown('<p style="text-align: right; font-size: 14px; color: #888;">Creado por: <strong>Branly Smith Paucar Arias</strong></p>', unsafe_allow_html=True)
 
 
 if selected_exercise == "Ejercicio 1":
