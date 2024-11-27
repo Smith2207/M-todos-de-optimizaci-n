@@ -1,6 +1,0 @@
-pip==24.3.1
-
-streamlit
-matplotlib
-numpy
-
