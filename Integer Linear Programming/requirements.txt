@@ -1,5 +1,0 @@
-streamlit
-pulp
-matplotlib
-numpy
-
